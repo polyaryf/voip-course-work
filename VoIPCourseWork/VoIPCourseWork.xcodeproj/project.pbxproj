@@ -9,25 +9,51 @@
 /* Begin PBXBuildFile section */
 		2967710E2C0488750064E3F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2967710D2C0488750064E3F3 /* AppDelegate.swift */; };
 		296771102C0488750064E3F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2967710F2C0488750064E3F3 /* SceneDelegate.swift */; };
-		296771122C0488750064E3F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296771112C0488750064E3F3 /* ViewController.swift */; };
-		296771152C0488750064E3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296771132C0488750064E3F3 /* Main.storyboard */; };
+		296771122C0488750064E3F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296771112C0488750064E3F3 /* MainViewController.swift */; };
 		296771172C0488760064E3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296771162C0488760064E3F3 /* Assets.xcassets */; };
-		2967711A2C0488760064E3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296771182C0488760064E3F3 /* LaunchScreen.storyboard */; };
-		DB4B9AD8642E5466AD80166A /* Pods_VoIPCourseWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */; };
+		29DD2C032C04FA3000934560 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C022C04FA3000934560 /* Configuration.swift */; };
+		29DD2C062C04FC1600934560 /* SignalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C052C04FC1600934560 /* SignalClient.swift */; };
+		29DD2C092C04FCC300934560 /* SignalClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */; };
+		29DD2C0C2C04FD2C00934560 /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */; };
+		29DD2C0E2C04FD3D00934560 /* WebSocketProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */; };
+		29DD2C102C04FE1800934560 /* StarscreamWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */; };
+		29DD2C132C04FE3700934560 /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C122C04FE3700934560 /* NativeWebSocket.swift */; };
+		29DD2C162C04FE5700934560 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C152C04FE5700934560 /* WebRTCClient.swift */; };
+		29DD2C182C04FE6F00934560 /* WebRTCClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */; };
+		29DD2C1B2C0508F000934560 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 29DD2C1A2C0508F000934560 /* WebRTC */; };
+		29DD2C1F2C05098F00934560 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 29DD2C1E2C05098F00934560 /* Starscream */; };
+		29DD2C212C050B2300934560 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C202C050B2300934560 /* Message.swift */; };
+		29DD2C242C050B8300934560 /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C232C050B8300934560 /* SessionDescription.swift */; };
+		29DD2C262C050B9200934560 /* SdpType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C252C050B9200934560 /* SdpType.swift */; };
+		29DD2C292C050BC200934560 /* RTCStates+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */; };
+		29DD2C2B2C050BDF00934560 /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2A2C050BDF00934560 /* IceCandidate.swift */; };
+		29DD2C2D2C050C7700934560 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2C2C050C7700934560 /* VideoViewController.swift */; };
+		29DD2C2F2C050D9900934560 /* UILable+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2E2C050D9900934560 /* UILable+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoIPCourseWork.debug.xcconfig"; path = "Target Support Files/Pods-VoIPCourseWork/Pods-VoIPCourseWork.debug.xcconfig"; sourceTree = "<group>"; };
 		2967710A2C0488750064E3F3 /* VoIPCourseWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoIPCourseWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2967710D2C0488750064E3F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2967710F2C0488750064E3F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		296771112C0488750064E3F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		296771142C0488750064E3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		296771112C0488750064E3F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		296771162C0488760064E3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		296771192C0488760064E3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2967711B2C0488760064E3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoIPCourseWork.release.xcconfig"; path = "Target Support Files/Pods-VoIPCourseWork/Pods-VoIPCourseWork.release.xcconfig"; sourceTree = "<group>"; };
-		BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoIPCourseWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DD2C022C04FA3000934560 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		29DD2C052C04FC1600934560 /* SignalClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalClient.swift; sourceTree = "<group>"; };
+		29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalClientDelegate.swift; sourceTree = "<group>"; };
+		29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketProvider.swift; sourceTree = "<group>"; };
+		29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketProviderDelegate.swift; sourceTree = "<group>"; };
+		29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarscreamWebSocket.swift; sourceTree = "<group>"; };
+		29DD2C122C04FE3700934560 /* NativeWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeWebSocket.swift; sourceTree = "<group>"; };
+		29DD2C152C04FE5700934560 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClientDelegate.swift; sourceTree = "<group>"; };
+		29DD2C202C050B2300934560 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		29DD2C232C050B8300934560 /* SessionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
+		29DD2C252C050B9200934560 /* SdpType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdpType.swift; sourceTree = "<group>"; };
+		29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RTCStates+Helpers.swift"; sourceTree = "<group>"; };
+		29DD2C2A2C050BDF00934560 /* IceCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
+		29DD2C2C2C050C7700934560 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		29DD2C2E2C050D9900934560 /* UILable+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,30 +61,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4B9AD8642E5466AD80166A /* Pods_VoIPCourseWork.framework in Frameworks */,
+				29DD2C1B2C0508F000934560 /* WebRTC in Frameworks */,
+				29DD2C1F2C05098F00934560 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28F9879758AD870CC3EB035D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */,
-				603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		296771012C0488750064E3F3 = {
 			isa = PBXGroup;
 			children = (
 				2967710C2C0488750064E3F3 /* VoIPCourseWork */,
 				2967710B2C0488750064E3F3 /* Products */,
-				28F9879758AD870CC3EB035D /* Pods */,
-				3CF31943B5832A5C368DF529 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,23 +88,109 @@
 		2967710C2C0488750064E3F3 /* VoIPCourseWork */ = {
 			isa = PBXGroup;
 			children = (
-				2967710D2C0488750064E3F3 /* AppDelegate.swift */,
-				2967710F2C0488750064E3F3 /* SceneDelegate.swift */,
-				296771112C0488750064E3F3 /* ViewController.swift */,
-				296771132C0488750064E3F3 /* Main.storyboard */,
+				29DD2BFE2C04F9FC00934560 /* Source */,
 				296771162C0488760064E3F3 /* Assets.xcassets */,
-				296771182C0488760064E3F3 /* LaunchScreen.storyboard */,
 				2967711B2C0488760064E3F3 /* Info.plist */,
 			);
 			path = VoIPCourseWork;
 			sourceTree = "<group>";
 		};
-		3CF31943B5832A5C368DF529 /* Frameworks */ = {
+		29DD2BFE2C04F9FC00934560 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */,
+				29DD2C042C04FBED00934560 /* Service */,
+				29DD2C002C04FA0F00934560 /* UI */,
+				29DD2BFF2C04FA0300934560 /* Control */,
 			);
-			name = Frameworks;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		29DD2BFF2C04FA0300934560 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C012C04FA1E00934560 /* Configuration */,
+				2967710D2C0488750064E3F3 /* AppDelegate.swift */,
+				2967710F2C0488750064E3F3 /* SceneDelegate.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		29DD2C002C04FA0F00934560 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				296771112C0488750064E3F3 /* MainViewController.swift */,
+				29DD2C2C2C050C7700934560 /* VideoViewController.swift */,
+				29DD2C2E2C050D9900934560 /* UILable+Helper.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		29DD2C012C04FA1E00934560 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C022C04FA3000934560 /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		29DD2C042C04FBED00934560 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C142C04FE4D00934560 /* WebRTC */,
+				29DD2C0A2C04FD1F00934560 /* WebSocket */,
+				29DD2C072C04FCB700934560 /* Signal */,
+				29DD2C222C050B3800934560 /* Model */,
+				29DD2C272C050BB400934560 /* Extension */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		29DD2C072C04FCB700934560 /* Signal */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C052C04FC1600934560 /* SignalClient.swift */,
+				29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */,
+			);
+			path = Signal;
+			sourceTree = "<group>";
+		};
+		29DD2C0A2C04FD1F00934560 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */,
+				29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */,
+				29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */,
+				29DD2C122C04FE3700934560 /* NativeWebSocket.swift */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		29DD2C142C04FE4D00934560 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C152C04FE5700934560 /* WebRTCClient.swift */,
+				29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		29DD2C222C050B3800934560 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C202C050B2300934560 /* Message.swift */,
+				29DD2C232C050B8300934560 /* SessionDescription.swift */,
+				29DD2C252C050B9200934560 /* SdpType.swift */,
+				29DD2C2A2C050BDF00934560 /* IceCandidate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29DD2C272C050BB400934560 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +200,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2967711E2C0488760064E3F3 /* Build configuration list for PBXNativeTarget "VoIPCourseWork" */;
 			buildPhases = (
-				92ADAF993277372CF603DAE5 /* [CP] Check Pods Manifest.lock */,
 				296771062C0488750064E3F3 /* Sources */,
 				296771072C0488750064E3F3 /* Frameworks */,
 				296771082C0488750064E3F3 /* Resources */,
@@ -109,6 +209,10 @@
 			dependencies = (
 			);
 			name = VoIPCourseWork;
+			packageProductDependencies = (
+				29DD2C1A2C0508F000934560 /* WebRTC */,
+				29DD2C1E2C05098F00934560 /* Starscream */,
+			);
 			productName = VoIPCourseWork;
 			productReference = 2967710A2C0488750064E3F3 /* VoIPCourseWork.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +241,10 @@
 				Base,
 			);
 			mainGroup = 296771012C0488750064E3F3;
+			packageReferences = (
+				29DD2C192C0508F000934560 /* XCRemoteSwiftPackageReference "WebRTC" */,
+				29DD2C1D2C05098F00934560 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = 2967710B2C0488750064E3F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,70 +259,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2967711A2C0488760064E3F3 /* LaunchScreen.storyboard in Resources */,
 				296771172C0488760064E3F3 /* Assets.xcassets in Resources */,
-				296771152C0488750064E3F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		92ADAF993277372CF603DAE5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoIPCourseWork-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		296771062C0488750064E3F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296771122C0488750064E3F3 /* ViewController.swift in Sources */,
+				29DD2C062C04FC1600934560 /* SignalClient.swift in Sources */,
+				29DD2C242C050B8300934560 /* SessionDescription.swift in Sources */,
+				29DD2C2D2C050C7700934560 /* VideoViewController.swift in Sources */,
+				29DD2C092C04FCC300934560 /* SignalClientDelegate.swift in Sources */,
+				29DD2C132C04FE3700934560 /* NativeWebSocket.swift in Sources */,
+				296771122C0488750064E3F3 /* MainViewController.swift in Sources */,
+				29DD2C0C2C04FD2C00934560 /* WebSocketProvider.swift in Sources */,
+				29DD2C2F2C050D9900934560 /* UILable+Helper.swift in Sources */,
 				2967710E2C0488750064E3F3 /* AppDelegate.swift in Sources */,
+				29DD2C102C04FE1800934560 /* StarscreamWebSocket.swift in Sources */,
+				29DD2C032C04FA3000934560 /* Configuration.swift in Sources */,
+				29DD2C262C050B9200934560 /* SdpType.swift in Sources */,
 				296771102C0488750064E3F3 /* SceneDelegate.swift in Sources */,
+				29DD2C212C050B2300934560 /* Message.swift in Sources */,
+				29DD2C162C04FE5700934560 /* WebRTCClient.swift in Sources */,
+				29DD2C2B2C050BDF00934560 /* IceCandidate.swift in Sources */,
+				29DD2C292C050BC200934560 /* RTCStates+Helpers.swift in Sources */,
+				29DD2C182C04FE6F00934560 /* WebRTCClientDelegate.swift in Sources */,
+				29DD2C0E2C04FD3D00934560 /* WebSocketProviderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		296771132C0488750064E3F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				296771142C0488750064E3F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		296771182C0488760064E3F3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				296771192C0488760064E3F3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2967711C2C0488760064E3F3 /* Debug */ = {
@@ -333,7 +411,6 @@
 		};
 		2967711F2C0488760064E3F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,9 +421,9 @@
 				INFOPLIST_FILE = VoIPCourseWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +439,6 @@
 		};
 		296771202C0488760064E3F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,9 +449,9 @@
 				INFOPLIST_FILE = VoIPCourseWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +487,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29DD2C192C0508F000934560 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 125.0.0;
+			};
+		};
+		29DD2C1D2C05098F00934560 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29DD2C1A2C0508F000934560 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29DD2C192C0508F000934560 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+		29DD2C1E2C05098F00934560 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29DD2C1D2C05098F00934560 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 296771022C0488750064E3F3 /* Project object */;
 }

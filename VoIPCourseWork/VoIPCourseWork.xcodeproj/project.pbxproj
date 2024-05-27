@@ -13,9 +13,11 @@
 		296771152C0488750064E3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296771132C0488750064E3F3 /* Main.storyboard */; };
 		296771172C0488760064E3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296771162C0488760064E3F3 /* Assets.xcassets */; };
 		2967711A2C0488760064E3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296771182C0488760064E3F3 /* LaunchScreen.storyboard */; };
+		DB4B9AD8642E5466AD80166A /* Pods_VoIPCourseWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoIPCourseWork.debug.xcconfig"; path = "Target Support Files/Pods-VoIPCourseWork/Pods-VoIPCourseWork.debug.xcconfig"; sourceTree = "<group>"; };
 		2967710A2C0488750064E3F3 /* VoIPCourseWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoIPCourseWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2967710D2C0488750064E3F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2967710F2C0488750064E3F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		296771162C0488760064E3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296771192C0488760064E3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2967711B2C0488760064E3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoIPCourseWork.release.xcconfig"; path = "Target Support Files/Pods-VoIPCourseWork/Pods-VoIPCourseWork.release.xcconfig"; sourceTree = "<group>"; };
+		BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoIPCourseWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4B9AD8642E5466AD80166A /* Pods_VoIPCourseWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28F9879758AD870CC3EB035D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */,
+				603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		296771012C0488750064E3F3 = {
 			isa = PBXGroup;
 			children = (
 				2967710C2C0488750064E3F3 /* VoIPCourseWork */,
 				2967710B2C0488750064E3F3 /* Products */,
+				28F9879758AD870CC3EB035D /* Pods */,
+				3CF31943B5832A5C368DF529 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = VoIPCourseWork;
 			sourceTree = "<group>";
 		};
+		3CF31943B5832A5C368DF529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A737F2EDB12AACD785DC3 /* Pods_VoIPCourseWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2967711E2C0488760064E3F3 /* Build configuration list for PBXNativeTarget "VoIPCourseWork" */;
 			buildPhases = (
+				92ADAF993277372CF603DAE5 /* [CP] Check Pods Manifest.lock */,
 				296771062C0488750064E3F3 /* Sources */,
 				296771072C0488750064E3F3 /* Frameworks */,
 				296771082C0488750064E3F3 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92ADAF993277372CF603DAE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoIPCourseWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		296771062C0488750064E3F3 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		2967711F2C0488760064E3F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A8E7520240E1B5BAC053AF /* Pods-VoIPCourseWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		296771202C0488760064E3F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603894B1178EBEBA85E2A505 /* Pods-VoIPCourseWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

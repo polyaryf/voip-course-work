@@ -7,7 +7,6 @@
 
 import Foundation
 
-@available(iOS 13.0, *)
 class NativeWebSocket: NSObject, WebSocketProvider {
     
     var delegate: WebSocketProviderDelegate?

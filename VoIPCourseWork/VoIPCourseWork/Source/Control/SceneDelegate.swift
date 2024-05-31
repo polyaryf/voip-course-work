@@ -33,13 +33,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func buildSignalingClient() -> SignalingClient {
         
         // iOS 13 has native websocket support. For iOS 12 or lower we will use 3rd party library.
-        let webSocketProvider: WebSocketProvider
-        
-        if #available(iOS 13.0, *) {
-            webSocketProvider = NativeWebSocket(url: self.config.signalingServerUrl)
-        } else {
-            webSocketProvider = StarscreamWebSocket(url: self.config.signalingServerUrl)
-        }
+        let webSocketProvider = NativeWebSocket(url: self.config.signalingServerUrl)
+       
         
         return SignalingClient(webSocket: webSocketProvider)
     }

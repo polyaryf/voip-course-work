@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum Message {
     case sdp(SessionDescription)
     case candidate(IceCandidate)

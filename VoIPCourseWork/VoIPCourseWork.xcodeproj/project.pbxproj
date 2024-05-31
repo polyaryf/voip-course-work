@@ -12,23 +12,11 @@
 		296771122C0488750064E3F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296771112C0488750064E3F3 /* MainViewController.swift */; };
 		296771172C0488760064E3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296771162C0488760064E3F3 /* Assets.xcassets */; };
 		29DD2C032C04FA3000934560 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C022C04FA3000934560 /* Configuration.swift */; };
-		29DD2C062C04FC1600934560 /* SignalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C052C04FC1600934560 /* SignalClient.swift */; };
-		29DD2C092C04FCC300934560 /* SignalClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */; };
-		29DD2C0C2C04FD2C00934560 /* WebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */; };
-		29DD2C0E2C04FD3D00934560 /* WebSocketProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */; };
-		29DD2C102C04FE1800934560 /* StarscreamWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */; };
-		29DD2C132C04FE3700934560 /* NativeWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C122C04FE3700934560 /* NativeWebSocket.swift */; };
-		29DD2C162C04FE5700934560 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C152C04FE5700934560 /* WebRTCClient.swift */; };
-		29DD2C182C04FE6F00934560 /* WebRTCClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */; };
 		29DD2C1B2C0508F000934560 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 29DD2C1A2C0508F000934560 /* WebRTC */; };
 		29DD2C1F2C05098F00934560 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 29DD2C1E2C05098F00934560 /* Starscream */; };
-		29DD2C212C050B2300934560 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C202C050B2300934560 /* Message.swift */; };
-		29DD2C242C050B8300934560 /* SessionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C232C050B8300934560 /* SessionDescription.swift */; };
-		29DD2C262C050B9200934560 /* SdpType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C252C050B9200934560 /* SdpType.swift */; };
-		29DD2C292C050BC200934560 /* RTCStates+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */; };
-		29DD2C2B2C050BDF00934560 /* IceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2A2C050BDF00934560 /* IceCandidate.swift */; };
 		29DD2C2D2C050C7700934560 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2C2C050C7700934560 /* VideoViewController.swift */; };
 		29DD2C2F2C050D9900934560 /* UILable+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD2C2E2C050D9900934560 /* UILable+Helper.swift */; };
+		29DD2C432C0A2FEF00934560 /* VIdeoAudioVoIP in Frameworks */ = {isa = PBXBuildFile; productRef = 29DD2C422C0A2FEF00934560 /* VIdeoAudioVoIP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,19 +27,6 @@
 		296771162C0488760064E3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2967711B2C0488760064E3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DD2C022C04FA3000934560 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		29DD2C052C04FC1600934560 /* SignalClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalClient.swift; sourceTree = "<group>"; };
-		29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalClientDelegate.swift; sourceTree = "<group>"; };
-		29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketProvider.swift; sourceTree = "<group>"; };
-		29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketProviderDelegate.swift; sourceTree = "<group>"; };
-		29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarscreamWebSocket.swift; sourceTree = "<group>"; };
-		29DD2C122C04FE3700934560 /* NativeWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeWebSocket.swift; sourceTree = "<group>"; };
-		29DD2C152C04FE5700934560 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
-		29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClientDelegate.swift; sourceTree = "<group>"; };
-		29DD2C202C050B2300934560 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		29DD2C232C050B8300934560 /* SessionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDescription.swift; sourceTree = "<group>"; };
-		29DD2C252C050B9200934560 /* SdpType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdpType.swift; sourceTree = "<group>"; };
-		29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RTCStates+Helpers.swift"; sourceTree = "<group>"; };
-		29DD2C2A2C050BDF00934560 /* IceCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCandidate.swift; sourceTree = "<group>"; };
 		29DD2C2C2C050C7700934560 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		29DD2C2E2C050D9900934560 /* UILable+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +38,7 @@
 			files = (
 				29DD2C1B2C0508F000934560 /* WebRTC in Frameworks */,
 				29DD2C1F2C05098F00934560 /* Starscream in Frameworks */,
+				29DD2C432C0A2FEF00934560 /* VIdeoAudioVoIP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +74,6 @@
 		29DD2BFE2C04F9FC00934560 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				29DD2C042C04FBED00934560 /* Service */,
 				29DD2C002C04FA0F00934560 /* UI */,
 				29DD2BFF2C04FA0300934560 /* Control */,
 			);
@@ -133,66 +108,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		29DD2C042C04FBED00934560 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C142C04FE4D00934560 /* WebRTC */,
-				29DD2C0A2C04FD1F00934560 /* WebSocket */,
-				29DD2C072C04FCB700934560 /* Signal */,
-				29DD2C222C050B3800934560 /* Model */,
-				29DD2C272C050BB400934560 /* Extension */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		29DD2C072C04FCB700934560 /* Signal */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C052C04FC1600934560 /* SignalClient.swift */,
-				29DD2C082C04FCC300934560 /* SignalClientDelegate.swift */,
-			);
-			path = Signal;
-			sourceTree = "<group>";
-		};
-		29DD2C0A2C04FD1F00934560 /* WebSocket */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C0B2C04FD2C00934560 /* WebSocketProvider.swift */,
-				29DD2C0D2C04FD3D00934560 /* WebSocketProviderDelegate.swift */,
-				29DD2C0F2C04FE1800934560 /* StarscreamWebSocket.swift */,
-				29DD2C122C04FE3700934560 /* NativeWebSocket.swift */,
-			);
-			path = WebSocket;
-			sourceTree = "<group>";
-		};
-		29DD2C142C04FE4D00934560 /* WebRTC */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C152C04FE5700934560 /* WebRTCClient.swift */,
-				29DD2C172C04FE6F00934560 /* WebRTCClientDelegate.swift */,
-			);
-			path = WebRTC;
-			sourceTree = "<group>";
-		};
-		29DD2C222C050B3800934560 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C202C050B2300934560 /* Message.swift */,
-				29DD2C232C050B8300934560 /* SessionDescription.swift */,
-				29DD2C252C050B9200934560 /* SdpType.swift */,
-				29DD2C2A2C050BDF00934560 /* IceCandidate.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		29DD2C272C050BB400934560 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				29DD2C282C050BC200934560 /* RTCStates+Helpers.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +127,7 @@
 			packageProductDependencies = (
 				29DD2C1A2C0508F000934560 /* WebRTC */,
 				29DD2C1E2C05098F00934560 /* Starscream */,
+				29DD2C422C0A2FEF00934560 /* VIdeoAudioVoIP */,
 			);
 			productName = VoIPCourseWork;
 			productReference = 2967710A2C0488750064E3F3 /* VoIPCourseWork.app */;
@@ -270,25 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29DD2C062C04FC1600934560 /* SignalClient.swift in Sources */,
-				29DD2C242C050B8300934560 /* SessionDescription.swift in Sources */,
 				29DD2C2D2C050C7700934560 /* VideoViewController.swift in Sources */,
-				29DD2C092C04FCC300934560 /* SignalClientDelegate.swift in Sources */,
-				29DD2C132C04FE3700934560 /* NativeWebSocket.swift in Sources */,
 				296771122C0488750064E3F3 /* MainViewController.swift in Sources */,
-				29DD2C0C2C04FD2C00934560 /* WebSocketProvider.swift in Sources */,
 				29DD2C2F2C050D9900934560 /* UILable+Helper.swift in Sources */,
 				2967710E2C0488750064E3F3 /* AppDelegate.swift in Sources */,
-				29DD2C102C04FE1800934560 /* StarscreamWebSocket.swift in Sources */,
 				29DD2C032C04FA3000934560 /* Configuration.swift in Sources */,
-				29DD2C262C050B9200934560 /* SdpType.swift in Sources */,
 				296771102C0488750064E3F3 /* SceneDelegate.swift in Sources */,
-				29DD2C212C050B2300934560 /* Message.swift in Sources */,
-				29DD2C162C04FE5700934560 /* WebRTCClient.swift in Sources */,
-				29DD2C2B2C050BDF00934560 /* IceCandidate.swift in Sources */,
-				29DD2C292C050BC200934560 /* RTCStates+Helpers.swift in Sources */,
-				29DD2C182C04FE6F00934560 /* WebRTCClientDelegate.swift in Sources */,
-				29DD2C0E2C04FD3D00934560 /* WebSocketProviderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +420,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 29DD2C1D2C05098F00934560 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
+		};
+		29DD2C422C0A2FEF00934560 /* VIdeoAudioVoIP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29DD2C1D2C05098F00934560 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = VIdeoAudioVoIP;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
